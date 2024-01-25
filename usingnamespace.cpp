@@ -1,6 +1,7 @@
 #include <iostream>
 
-using namespace std;
+using namespace std; // using directive
+
 
 int main()
 {

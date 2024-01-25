@@ -5,7 +5,7 @@
  int main()
  {
 
-    bool found = 0;
+    bool found = 000001;
     cout << std::boolalpha << found << std::endl;
 
  }
