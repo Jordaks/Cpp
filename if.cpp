@@ -5,16 +5,16 @@ using std::cin;
 int main(){
    int GWA = 90;
     
-    cout << "WHAT IS YOUR GRADE?: \n";
+    cout << "WHAT IS YOUR GRADE?: ";
     cin >> GWA;
     if ( GWA > 89)
     {
-        cout << "CONGRATS YOU ARE DEAN'S LISTER! ";
+        cout << " CONGRATS YOU ARE DEAN'S LISTER! ";
     }
 
     else 
     {
-        cout << "OH NICE GOOD WORK! ";
+        cout << " OH NICE GOOD WORK! ";
     }
     
 
