@@ -3,7 +3,7 @@ using std::cout;
 using std::cin;
 
 int main(){
-   int GWA = 90;
+   int GWA;
     
     cout << "WHAT IS YOUR GRADE?: ";
     cin >> GWA;
@@ -11,7 +11,10 @@ int main(){
     {
         cout << " CONGRATS YOU ARE DEAN'S LISTER! ";
     }
-
+    else if( GWA < 74 )
+    {
+        cout << " YOU'RE FAILED! ";
+    }
     else 
     {
         cout << " OH NICE GOOD WORK! ";
