@@ -21,7 +21,7 @@ int main()
 
     if (nuM <= 0 )
     {
-        cout << "Sign up\n\n";
+        cout << "\nSign up\n\n";
         cout << "Email:\n ";
         cin >> mail;
         cout << "Password: \n";
@@ -29,7 +29,7 @@ int main()
     }
         else if(nuM >= 1)
         {
-            cout << "Log In\n\n";
+            cout << "\nLog In\n\n";
             cout << "Email:\n ";
             cin >> mail;
             cout << "Password:\n ";
