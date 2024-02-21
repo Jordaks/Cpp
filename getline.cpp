@@ -1,12 +1,19 @@
 #include <iostream>
-#include <string>
+using namespace std;
+
 
 
 int main()
 {
-    std::string greeting;
-    std::getline(std::cin, greeting);
-    std::cout << greeting << std::endl;
+    string yourName;
+    string birthDay;
+
+    cout << yourName << endl;
+    getline(cin, yourName);
 
 
+    cout << birthDay << endl;
+    getline(cin, birthDay);
+    
+    return 0;
 }
