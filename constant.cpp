@@ -8,4 +8,7 @@ int main()
     const int x = 5;
 
     enum { y = 100 }
+
+    cout << x;
+    
 }
