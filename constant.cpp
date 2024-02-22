@@ -16,14 +16,15 @@ int main()
 /*#include <iostream>
 using namespace std;
 
-const int myConstant = 10; // Global constant
+const int x = 5; // Global constant
 
 int main() {
-    const int myConstant = 5; // Local constant in main function
+    const int x = 10; // Local constant in main function
 
-    cout << "Local constant in main function: " << myConstant << endl; // Outputs the local constant
-    cout << "Global constant: " << ::myConstant << endl; // Outputs the global constant using the scope resolution operator (::)
+    cout << "Local constant in main function: " << x << endl; // Outputs the local constant
+    cout << "Global constant: " << ::x << endl; // Outputs the global constant directly
 
     return 0;
 }
+
 */
