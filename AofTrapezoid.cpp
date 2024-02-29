@@ -20,8 +20,7 @@ int main(){
     int solution1 = solution / two;
     int Area = solution1 * height;
     
-    cout << solution << "\n";
-    cout << solution1 << "\n";
+    
     cout << "The area of Trapezoid is " << Area << "\n";
 
     return 0;
