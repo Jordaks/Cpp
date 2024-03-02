@@ -7,6 +7,7 @@ int main(){
 
         int num1, num2;
         char sign;
+        
         cout << "\t Enter a number: ";
         cin >> num1;
         cout << "\t Type Operator: ";
