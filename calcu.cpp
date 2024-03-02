@@ -2,61 +2,54 @@
 using namespace std;
 
 int main(){
-     
-        int num1;
-        int num2;
-        //int sign;
-        string sign = "+";
-        string sign = "-";
-        string sign = "/";
-        string sign = "*";
-        string sign = "%";
-            
 
-            /*cout << " Enter a number: \n";
-            cin >> num1;
-            cout << " Enter a number: \n";
-            cin >> num2;*/
-            
-            cout << "Choose operator: 1 = +, 2 = -,3 = /, 4 = *,5 = % \n";
-            cout << "Enter a number: \n";
-            cin >> sign;
+        cout << "\t BASIC CALCULATOR \n\n";
+
+        int num1, num2;
+        char sign;
+        //cout << "\t Enter a number: ";
+        cin >> num1;
+        //cout << "\t Type Operator: ";
+        cin >> sign;
+        //cout << "\t Enter a number: ";
+        cin >> num2;
           
-    
 
-          //cout << " The answer is " << answer << "\n";
-            
-        /*switch (operator)
+        int AddAnswer = num1 + num2;
+        int SubAnswer = num1 - num2;
+        int MulAnswer = num1 * num2;
+        int DivAnswer = num1 / num2;
+        int ModAnswer = num1 % num2;
+      
+
+        switch(sign)
         {
         
-            case 1:
-                cout << "+";
+            case '+':
+                cout << "\t Answer is " << AddAnswer;
                 break;
 
-            case 2:
-                cout << "-";
+            case '-':
+                cout << "\t Answer is " << SubAnswer;
                 break;
 
-            case 3:
-                cout << "*";
+            case '*':
+                cout << "\t Answer is " << MulAnswer;
                 break;
 
-            case 4:
-                cout << "/";
+            case '/':
+                cout << "\t Answer is " << DivAnswer;
                 break;
 
-            case 5:
-                cout << "%";
+            case '%':
+                cout << "\t Answer is " << ModAnswer;
                 break;
 
             default:
-                cout << "Invalid Operator!!!";
+                cout << " \tInvalid Operator!!! ";
                 break;
 
-      }*/
-            
-
-            
+      }
 
     return 0;
 }
