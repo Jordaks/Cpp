@@ -5,15 +5,18 @@ using namespace std;
 int main(){
 
     for (int i = 0; i < 1; i++){
-        cout << "  " << '*' << "\n"<< " ";
+        cout << "       " << "*" << "\n"<< "    ";
         for (int  j = 0; j < 3; j++){
-            cout  << '*';     
+            cout  << " *";     
+        }
+        cout << "\n" << "  ";
+        for (int k = 0; k < 5; k++){
+            cout  << " *";
         }
         cout << "\n";
-        for (int k = 0; k < 5; k++){
-            cout << '*';
+        for (int l = 0; l < 7; l++){
+            cout << " *";
         }
-        
     }
     return 0;
 }
